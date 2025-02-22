@@ -1,0 +1,102 @@
+.stButton>button {
+    width: 100%;
+    border-radius: 5px;
+    height: 3em;
+    background-color: #FF4B4B;
+    color: white;
+}
+
+.achievement-badge {
+    background-color: #f0f2f6;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.leaderboard-item {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #FF4B4B;
+    transition: width 0.3s ease;
+}
+
+/* New styles for virtual economy */
+.shop-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.shop-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.streak-counter {
+    background: linear-gradient(45deg, #FF4B4B, #FF8F8F);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.inventory-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.coin-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFD700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin: 2px;
+}
+
+.badge-theme {
+    background-color: #E8F0FE;
+    color: #1967D2;
+}
+
+.badge-booster {
+    background-color: #FEF7E0;
+    color: #F9AB00;
+}
+
+.badge-achievement {
+    background-color: #E6F4EA;
+    color: #137333;
+}
